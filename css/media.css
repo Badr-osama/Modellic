@@ -1,0 +1,228 @@
+@media screen and (max-width:1500px){
+    body{
+        margin: 0;
+    }
+    #video{
+        height: 700px;
+        flex-wrap: wrap;
+        left: 0;
+    }
+}
+@media screen and (max-width:1200px){
+    #video video{
+        height: 100%;
+        width: auto;
+    }
+    #then-h{
+        width: 100%;
+    }
+    #then-h ul{
+        justify-content: flex-end;
+    }
+    #text{
+        margin: auto;
+    }
+    
+}
+@media screen and (max-width:1080px){
+}
+@media screen and (max-width:900px){
+    #then-h{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #then-h ul{
+        display: none;
+    }
+    #then-h #icon{
+        display: block;
+        justify-content: flex-end;
+        padding: 32px 0;
+    }
+    #then-h #icon a .fa-bars{
+        color: #7e702b;
+    }
+    #then-h ul li a{
+        padding: 35px 0;
+        color: white;
+    }
+    #center-c #content #btn{
+        display: none;
+    }
+    #content2{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+    }
+    #content2 div{
+        width: 45%;
+    }
+    #footer{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #content13{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+    }
+    #content13 ul{
+        width: calc(100%/2);
+    }
+}
+@media screen and (max-width:850px){
+    #then{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    #then #left{
+        margin: 0;
+    }
+    #picture{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #content3{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #picture1{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #content6{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #pen{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #content9{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width:750px){
+    #then-h #logo a{
+        padding: 0;
+    }
+    #img #content2{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: auto;
+    }
+    #content2 div{
+        width: 100%;
+    }
+    #picturee{
+        flex-direction: column;
+        height: auto;
+        background: #282828;
+    }
+    .media{
+        display: block;
+        width: 100%;
+    }
+    #content3{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 50px 5%;
+    }
+    #content5{
+       display: grid;
+       justify-content: space-evenly;
+       grid-template-columns: repeat(1,90%);
+    }
+    #content5 div{
+      display: grid;
+      margin: 10px 0;
+    }
+    #picturee1{
+        flex-direction: column;
+        height: auto;
+        background: #282828;
+    }
+    .media1{
+        display: block;
+        width: 100%;
+    }
+    #content6{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 60px 5%;
+    }
+    #content8{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: auto;
+    }
+    #content8 div{
+        width: 90%;
+    }
+    #content8 div:not(:first-child){
+        margin-top: 10px;
+    }
+    #peen{
+        flex-direction: column;
+        height: auto;
+        background: #282828;
+    }
+    .media2{
+        display: block;
+        width: 100%;
+    }
+    #content9{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 60px 5%;
+    }
+    #content11{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: repeat(1,90%);
+    }
+    #content11 div{
+        display: grid;
+    }
+    #content11 div:not(:first-child){
+        margin-top: 15px;
+    }
+    #content13{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+    }
+    #content13 ul{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:550px){
+    #then #left{
+        display: none;
+    }
+    #content4 h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:350px){
+    #content4 h1{
+        font-size: 20px;
+    }
+}
